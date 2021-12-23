@@ -8,7 +8,7 @@ export default class About extends Component {
 
             <div className="three columns">
 
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+               <img className="profile-pic"  src={require('../images/profilePicture.png')}  alt="" />
 
             </div>
 
@@ -27,14 +27,47 @@ export default class About extends Component {
 
                   <h2>Contact Details</h2>
                   <p className="address">
-       						<span>{resumeData.name}</span>
+                     <a href="https://www.linkedin.com/in/shweta-sharma24/">
+       						<span style={{display:"flex", width:"max-content"}}> 
+                         <span className='fa fa-linkedin' style={{
+                            color:"black", 
+                            backgroundColor:"white", 
+                            width:"30px", 
+                            height:"30px",
+                            display:"flex",
+                            alignItems:"center",
+                            justifyContent:"center",
+                            borderRadius:"50%",
+                            marginRight:"10px"
+                           }}></span>
+                           
+                           <span style={{color:"grey"}}>
+                           https://www.linkedin.com/in/shweta-sharma24   
+                           </span>  
+                        </span>
+                     </a>
                      <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
-                    <span>{resumeData.website}</span>
-       					   </p>
+                     
+   						<span style={{display:"flex", width:"max-content"}}> 
+                        <span className='fa fa-google-plus' style={{
+                            color:"black", 
+                            backgroundColor:"white", 
+                            width:"30px", 
+                            height:"30px",
+                            display:"flex",
+                            alignItems:"center",
+                            justifyContent:"center",
+                            borderRadius:"50%",
+                            marginRight:"10px"
+                           }}></span>
+                           
+                        <span style={{color:"grey"}}>
+                           {resumeData.website}  
+                        </span>  
+                     </span>
+   
+                    {/* <span>{resumeData.website}</span> */}
+       				</p>
                   </div>
                </div>
             </div>

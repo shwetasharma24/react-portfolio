@@ -1,95 +1,100 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
+    "imagebaseurl":"https://github.com/shwetasharma24",
+    "name": "Shweta Sharma",
+    "role": "Full Stack Javascript Developer",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "with 1.5 years of industry experience in working and developing on various stages of an application life cycle. I specialize in JavaScript and have experience in MERN stack. I am passionate about the work I do but even more so devoted to cultivating a positive environment.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/shweta-sharma24/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/shwetasharma24",
           "className":"fa fa-github"
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "url":"https://join.skype.com/invite/vWHYeFMpSEhZ",
+          "className":"fa fa-skype"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme": "I am a full stack web developer mostly experienced in MERN tech stack and am currently working with Virtusa as a react developer. I am also persuing M.Tech. CSE (Full Stack Development) and am in its final year. I look forward to associate myself with an organization where there's an oppurtunity to share, contribute and upgrade my knowledge and skill set for development of self and the organization served. ",
+    "website":"s.shweta1997@gmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"M.Tech. CSE (Full Stack Web Development)",
+        "specialization":"Chitkara University, Punjab",
+        "MonthOfPassing":"June",
+        "YearOfPassing":"2022",
+        "Achievements":"CGPA: 10.00"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"B.Tech. Computer Science & Engineering",
+        "specialization":"Lovely Professional University, Punjab",
+        "MonthOfPassing":"July",
+        "YearOfPassing":"2019",
+        "Achievements":"CGPA: 9.00"
+      },
+      {
+        "UniversityName":"XIIth Standard and Xth Standard",
+        "specialization":"Kendriya Vidyalaya, AFS Adampur, Punjab",
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Virtusa ",
+        "specialization":"Full Stack Intern",
+        "MonthOfLeaving":"June",
+        "YearOfLeaving":"2021 to Present",
+        "Achievements":"Hired as a MERN stack developer I’ve worked on multiple projects. Mapped to project D3X I was working on Reactjs and Node.js and was responsible for both frontend and backend development of various modules. With project Dakshas- a progressive web app for Meditorus, I am currently working on Reactjs as a frontend developer for addition of new features to the application."
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"VMware Software India Pvt. Ltd.",
+        "specialization":"Associate Engineer",
+        "MonthOfLeaving":"July",
+        "YearOfLeaving":"2019 to October 2020",
+        "Achievements":"Hired as an Associate Engineer, worked in collaboration with technical support engineering team to find solutions for time expensive log analysis. Worked on log insights from VMware's vCenter to build a tool for finding possible errors and their solutions from the log dump according to VMware's knowledge base."
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"",
     "skills":[
+      
       {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
+        "skillname":"Javascript"
       },
       {
         "skillname":"Reactjs"
+      },
+      {
+        "skillname":"Nodejs"
+      },
+      {
+        "skillname":"MongoDB"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Pottery Head",
+        "description":"It is a one stop marketplace for all the pottery lovers made to highlight and flourish the Indian art of pottery. Technologies used are- React, Redux, Stripe, Firebase, Express, MongoDB ",
+        "imgurl":"https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG90dGVyeXxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "projectLink": "https://potteryhead.netlify.app/"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Book Buddy",
+        "description":"A web application developed for book lovers to review books and share their thoughts about books they’ve read with each other. It helps people to bookmark and read books that they would love to read based on the ratings and comments from fellow book lovers.",
+        "imgurl":"https://media.wired.com/photos/5be4cd03db23f3775e466767/master/pass/books-521812297.jpg",
+        "projectLink": "https://bookbuddyyy.herokuapp.com/"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Client Panel",
+        "description":"A web app that allows admin to manage business clients for any organization. It helps to manage details of the clients along with the money they owe them.  ",  
+        "imgurl":"https://cdn.searchenginejournal.com/wp-content/uploads/2018/03/trustworthy-marketing-team-760x400.png",
+        "projectLink": "https://clientpanelprod-bf7ae.web.app/login"
       },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
     ],
     "testimonials":[
       {
