@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Full Stack Javascript Developer",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "with 1.5 years of industry experience in working and developing on various stages of an application life cycle. I specialize in JavaScript and have experience in MERN stack. I am passionate about the work I do but even more so devoted to cultivating a positive environment.",
+    "roleDescription": "with 4 years of industry experience in working and developing on various stages of an application life cycle. I specialize in JavaScript and have experience in MERN stack. I am passionate about the work I do but even more so devoted to cultivating a positive environment.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,7 +22,8 @@ let resumeData = {
           "className":"fa fa-skype"
         }
       ],
-    "aboutme": "I am a full stack web developer mostly experienced in MERN tech stack and am currently working with Virtusa as a react developer. I am also persuing M.Tech. CSE (Full Stack Development) and am in its final year. I look forward to associate myself with an organization where there's an oppurtunity to share, contribute and upgrade my knowledge and skill set for development of self and the organization served. ",
+    "aboutme": "I am an experienced software engineer with a demonstrated history of 4 years working in MERN applications. Skilled in Javascript, React.js, Next.js and have required knowledge of front end    technologies. I am currently working with Reliance Jio as a Senior Software Engineer leading the frontend team and I look forward to associate myself with an organization where there's an oppurtunity to share, contribute and upgrade my knowledge and skill set for development of self and the organization served. ",
+
     "website":"s.shweta1997@gmail.com",
     "education":[
       {
@@ -46,28 +47,40 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"Reliance Jio ",
+        "specialization":"Senior Software Engineer",
+        "MonthOfLeaving":"March",
+        "YearOfLeaving":"2022 to Present",
+        "Achievements":["Partner Onboarding- Contributed as a frontend development lead in this project that is an end-to-end solution for onboarding a new retailer or partner for Jio. Reduced some of the earlier paper work and streamlined the process for both- Jio and their partners. Architected solutions using React.js, Redux for frontend and guided my team." ,
+        " Revenue Assurance and Fraud Management- Developed an application using Next.js that allows Jio’s fraud management team to identify possible billing frauds. Implemented server side components to make the application fast that improved fraud detection time leading to increased revenue.",
+        "Partner Central Analytics- Contributed to the development of a role based analytics application that allows all hierarchies of Jio’s partners and business to view retailers’ performance. With different types of graphs and charts, it helps them to analyze and improve their sales."]
+      },
+      {
         "CompanyName":"Virtusa ",
         "specialization":"Full Stack Intern",
         "MonthOfLeaving":"June",
-        "YearOfLeaving":"2021 to Present",
-        "Achievements":"Hired as a MERN stack developer I’ve worked on multiple projects. Mapped to project D3X I was working on Reactjs and Node.js and was responsible for both frontend and backend development of various modules. With project Dakshas- a progressive web app for Meditorus, I am currently working on Reactjs as a frontend developer for addition of new features to the application."
+        "YearOfLeaving":"2021 to March 2022",
+        "Achievements":["Hired as a MERN stack developer I’ve worked on multiple projects. Mapped to project D3X I was working on Reactjs and Node.js and was responsible for both frontend and backend development of various modules.",
+        "With project Dakshas- a progressive web app for Meditorus, I worked on Reactjs as a frontend developer for addition of new features to the application."]
       },
       {
         "CompanyName":"VMware Software India Pvt. Ltd.",
         "specialization":"Associate Engineer",
         "MonthOfLeaving":"July",
         "YearOfLeaving":"2019 to October 2020",
-        "Achievements":"Hired as an Associate Engineer, worked in collaboration with technical support engineering team to find solutions for time expensive log analysis. Worked on log insights from VMware's vCenter to build a tool for finding possible errors and their solutions from the log dump according to VMware's knowledge base."
+        "Achievements":["Developed a one stop solution for monitoring and managing all VMware solutions from ESXi hosts to VMs.Worked on critical features that allows networking for virtual machines through the application and enables smooth configuration and maintenance of VM networks for the administrators."]
       }
     ],
     "skillsDescription":"",
     "skills":[
-      
       {
         "skillname":"Javascript"
       },
       {
         "skillname":"Reactjs"
+      },
+      {
+        "skillname":"Nextjs"
       },
       {
         "skillname":"Nodejs"
@@ -99,11 +112,11 @@ let resumeData = {
     "testimonials":[
       {
         "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "name":"Some technical girl"
       },
       {
         "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "name":"Some technical girl"
       }
     ]
   }

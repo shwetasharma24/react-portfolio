@@ -399,6 +399,11 @@ ul#nav li.current a {
   -moz-animation: reactjs 2s ease;
   -webkit-animation: reactjs 2s ease;
 }
+.nextjs {
+  width: 75%;
+  -moz-animation: nextjs 2s ease;
+  -webkit-animation: nextjs 2s ease;
+}
 .nodejs {
   width: 70%;
   -moz-animation: nodejs 2s ease;
