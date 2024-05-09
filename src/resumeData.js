@@ -47,7 +47,7 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Reliance Jio ",
+        "CompanyName":"Jio Platforms Limited",
         "specialization":"Senior Software Engineer",
         "MonthOfLeaving":"March",
         "YearOfLeaving":"2022 to Present",
